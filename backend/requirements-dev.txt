@@ -1,0 +1,47 @@
+# Development Dependencies for Chemical Equipment Visualizer
+# Install with: pip install -r requirements-dev.txt
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+
+# Code Quality
+pylint==3.0.3
+flake8==6.1.0
+black==23.12.1
+isort==5.13.2
+autopep8==2.0.4
+
+# Security
+bandit==1.7.5
+safety==2.3.5
+
+# Documentation
+Sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Debugging
+ipdb==0.13.13
+django-debug-toolbar==4.2.0
+
+# Performance
+django-silk==5.0.4
+
+# API Documentation
+drf-spectacular==0.27.0
+
+# Development Tools
+django-extensions==3.2.3
+ipython==8.18.1
+
+# Database
+psycopg2-binary==2.9.9  # PostgreSQL adapter (if needed)
+
+# Task Queue (optional)
+# celery==5.3.4
+# redis==5.0.1
+
+# Monitoring (optional)
+# sentry-sdk==1.39.1

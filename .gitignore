@@ -1,0 +1,355 @@
+# ============================================
+# Python Virtual Environments
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.Python
+
+# ============================================
+# Python Compiled Files
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# ============================================
+# Python Build & Distribution
+# ============================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.whl
+
+# ============================================
+# Django Specific
+# ============================================
+*.log
+db.sqlite3
+db.sqlite3-journal
+*.sqlite
+*.sqlite3
+*.db
+media/
+staticfiles/
+static/
+migrations/__pycache__/
+local_settings.py
+
+# ============================================
+# Node.js & npm
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# React / Vite / Frontend Build
+# ============================================
+build/
+dist/
+dist-ssr/
+.cache/
+.vite/
+*.tsbuildinfo
+.parcel-cache/
+.next/
+out/
+.nuxt/
+.vercel
+coverage/
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+backend/.env
+frontend/.env
+otp_service/.env
+desktop/.env
+*.env
+
+# ============================================
+# IDE - VSCode
+# ============================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ============================================
+# IDE - PyCharm / IntelliJ
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ============================================
+# IDE - Other
+# ============================================
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.sublime-workspace
+.sublime-project
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Logs & Reports
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pip-log.txt
+pip-delete-this-directory.txt
+# ============================================
+# Logs & Reports
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.coverage
+.coverage.*
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.cache/
+
+# ============================================
+# Package Manager Lock Files (Keep)
+# ============================================
+# Uncomment to ignore (not recommended)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# PyQt Generated Files
+# ============================================
+ui_*.py
+*.ui.bak
+*.ui~
+
+# ============================================
+# PyInstaller
+# ============================================
+*.manifest
+*.spec
+
+# ============================================
+# Security - Certificates & Keys
+# ============================================
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+credentials.json
+token.json
+client_secret*.json
+*.csr
+
+# ============================================
+# Database Files & Backups
+# ============================================
+*.sql
+*.dump
+*.bak
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# Project Specific Files
+# ============================================
+uploads/
+temp/
+test_data/
+!data_samples/
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ============================================
+# Documentation Build
+# ============================================
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# ============================================
+# Translations
+# ============================================
+*.mo
+*.pot
+
+# ============================================
+# Python Type Checking
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ============================================
+# Celery
+# ============================================
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================
+# Scrapy
+# ============================================
+.scrapy
+
+# ============================================
+# Sphinx documentation
+# ============================================
+docs/_build/
+
+# ============================================
+# PyBuilder
+# ============================================
+target/
+
+# ============================================
+# Spyder
+# ============================================
+.spyderproject
+.spyproject
+
+# ============================================
+# Rope
+# ============================================
+.ropeproject
+
+# ============================================
+# mkdocs
+# ============================================
+/site
+
+# ============================================
+# Cython
+# ============================================
+cython_debug/
+
+# ============================================
+# macOS Specific
+# ============================================
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+

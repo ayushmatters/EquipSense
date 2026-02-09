@@ -1,0 +1,13 @@
+# EquipSense Authentication System - Additional Requirements
+
+# Google OAuth
+google-auth==2.48.0
+google-auth-oauthlib==1.2.4
+google-auth-httplib2==0.3.0
+
+# Already installed (keeping for reference)
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.1
+requests==2.31.0
